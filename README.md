@@ -1,30 +1,64 @@
-# 🛡️ Laboratório de Cybersecurity - DGprograma
+# 🛡️ Laboratório de Cybersecurity
 
-Este repositório serve como um portfólio técnico focado em **Segurança Ofensiva**, **Análise de Redes** e **Inteligência Digital (OSINT)**. Aqui documento a minha evolução e os testes realizados em ambientes controlados.
+Laboratório pessoal de estudos em **segurança da informação, análise de redes, automação e OSINT**, com foco em ambientes próprios e autorizados.
 
-## 👤 Sobre o Autor
-* **Experiência:** 2.5 anos como Desenvolvedor Full Stack (Sites, Apps e Bots).
-* **Formação:** Certificações em Informática para Internet e Cybersecurity pelo **SENAC** e **Harvard**.
-* **Especialidade:** Automação com Python e Pentest Web.
+## 🎯 Objetivo
 
-## 📂 Conteúdo do Laboratório
+Este repositório registra experimentos técnicos usados para aprender:
 
-### 1. Penetration Testing & Network Analysis
-Ficheiros de captura (`.cap`) e logs resultantes de auditorias de rede e testes de vulnerabilidades.
-* **Análise de Tráfego:** Monitorização de protocolos e diagnósticos de rede.
-* **Provas de Conceito:** Simulações de ataques controlados para reforço de segurança.
+- análise de tráfego e diagnóstico de redes;
+- automação de tarefas de laboratório com Python;
+- investigação baseada em fontes abertas;
+- observabilidade e documentação de eventos;
+- fundamentos de segurança defensiva.
 
-### 2. Inteligência de Fontes Abertas (OSINT)
-Projetos focados em coleta e análise de dados para mapeamento de superfícies de ataque e pegadas digitais.
+## 📂 Estrutura
 
-### 3. Scripts & Automação (Python)
-Ferramentas personalizadas desenvolvidas para auxiliar em auditorias de segurança.
-* **Exemplo:** `tuya_sniffer.py` - Script para monitorização e análise de dispositivos IoT.
+### Python
 
-## 🛠️ Tecnologias Utilizadas
-* **Sistema Operativo:** Kali Linux.
-* **Linguagens:** Python, JavaScript (Bots de WhatsApp).
-* **Ferramentas de Pentest:** Aircrack-ng, Wireshark, Kismet.
+**`tuya_sniffer.py`** — experimento de análise de tráfego UDP em uma rede de laboratório autorizada.
 
----
-🚀 **Conheça o meu portfólio completo:** [https://astonishing-chimera-d91ff9.netlify.app](https://21programe.netlify.app)
+O script é mantido como material didático e deve ser usado apenas em redes e dispositivos sob autorização.
+
+### OSINT
+
+A área de OSINT foi mantida conceitualmente separada do código de captura para facilitar a organização de estudos e evitar a publicação de dados pessoais ou evidências brutas.
+
+## 🧪 Dados de laboratório
+
+Capturas `.cap`, relatórios derivados, imagens de eventos e outros dados brutos **não fazem parte deste repositório público**.
+
+Quando um exercício precisar de evidência para reprodução, a documentação deve descrever o cenário com dados sintéticos ou anonimizados.
+
+## 🔐 Regras de uso
+
+Este projeto é educacional. Testes de segurança devem ser realizados somente em:
+
+- equipamentos próprios;
+- laboratórios locais;
+- ambientes de teste;
+- sistemas para os quais exista autorização explícita.
+
+Não publique credenciais, dados pessoais, sessões, capturas de terceiros ou informações identificáveis.
+
+## 🛠️ Tecnologias
+
+- Python
+- Kali Linux
+- Wireshark
+- Kismet
+- ferramentas de análise e automação de laboratório
+
+## 📌 Próximos passos
+
+- [ ] adicionar exercícios reproduzíveis com dados sintéticos;
+- [ ] documentar metodologia e resultados;
+- [ ] adicionar testes unitários aos scripts;
+- [ ] separar notas de estudo de ferramentas reutilizáveis;
+- [ ] criar demonstrações visuais anonimizadas.
+
+## 👨‍💻 Autor
+
+**21Programe**
+
+Portfólio: https://github.com/21Programe
