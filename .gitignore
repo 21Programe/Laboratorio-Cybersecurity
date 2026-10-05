@@ -1,3 +1,23 @@
-wordlist_8digitos.txt
+# Dados de laboratório — nunca versionar capturas brutas
+*.cap
+*.pcap
+*.pcapng
+*.kismet.csv
+*.netxml
+*_log.csv
+*_log*.csv
+captura_*
+prova_*
+
+# Resultados de OSINT / evidências
+meu_projeto_osint/static/logs/
+*.png
+*.jpg
+*.jpeg
+
+# Arquivos locais
 *.txt
-*.txt
+__pycache__/
+.venv/
+venv/
+.env
